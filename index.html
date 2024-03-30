@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo app - f3w3</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    
+<div class="container">
+        <h1>To-Do List</h1>
+
+    <div class="input_div">
+        <div class="input_task"><input type="text" name="" id="task" placeholder="Enter Task"></div>
+        <div class="input_date"><input type="date" id="deadline" placeholder="Deadline"></div>
+        <div class="input_priority">
+            <select id="priority" >
+                <option value="null">Priority</option>
+                <option value="High">High</option>
+                <option value="Medium">Medium</option>
+                <option value="Low">Low</option>
+              </select>
+        </div>
+        <div class="input_add"><button id="add">Add</button></div>
+    </div>
+
+
+    <h2>Todays Tasks</h2>
+    <div id="today">
+        <div class="card">
+            <div class="card_task">1. Acciojob Assignment</div>
+            <div class="card_date">16/1/2022</div>
+            <div class="card_priority">Priority: High</div>
+            <div class="card_icon"><i class="fa-regular fa-circle-check done_task"></i><i class="fa-solid fa-trash delete_task"></i></div>
+        </div>
+        <div class="card">
+            <div class="card_task">1. Acciojob Assignment</div>
+            <div class="card_date">16/1/2022</div>
+            <div class="card_priority">Priority: High</div>
+            <div class="card_icon"><i class="fa-regular fa-circle-check done_task"></i><i class="fa-solid fa-trash delete_task"></i></div>
+        </div>
+    </div>
+
+    <h2>Future Tasks</h2>
+    <div id="future">
+        <div class="card">
+            <div class="card_task">1. Acciojob Assignment</div>
+            <div class="card_date">16/1/2022</div>
+            <div class="card_priority">Priority: High</div>
+            <div class="card_icon"><i class="fa-regular fa-circle-check done_task"></i><i class="fa-solid fa-trash delete_task"></i></div>
+        </div>
+        <div class="card">
+            <div class="card_task">1. Acciojob Assignment</div>
+            <div class="card_date">16/1/2022</div>
+            <div class="card_priority">Priority: High</div>
+            <div class="card_icon"><i class="fa-regular fa-circle-check done_task"></i><i class="fa-solid fa-trash delete_task"></i></div>
+        </div>
+    </div>
+
+    <h2>Completed Tasks</h2>
+    <div id="completed">
+        <div class="card">
+            <div class="card_task">1. Acciojob Assignment</div>
+            <div class="card_date">16/1/2022</div>
+            <div class="card_priority">Priority: High</div>
+            <div class="card_icon"><i class="fa-regular fa-circle-check done_task"></i><i class="fa-solid fa-trash delete_task"></i></div>
+        </div>
+        <div class="card">
+            <div class="card_task">1. Acciojob Assignment</div>
+            <div class="card_date">16/1/2022</div>
+            <div class="card_priority">Priority: High</div>
+            <div class="card_icon"><i class="fa-regular fa-circle-check done_task"></i><i class="fa-solid fa-trash delete_task"></i></div>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
