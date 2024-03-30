@@ -87,8 +87,17 @@ width: 22% ;
 }
 
 
+.card_task{
+  width: 40%;
+}
+.card_date,
+.card_priority,
+.card_icon{
+  width: 20%;
+}
+
 ::-webkit-scrollbar {
-    width: 16px;
+    width: 10px;
 }
 
 ::-webkit-scrollbar-track {
